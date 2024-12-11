@@ -1,0 +1,56 @@
+#model
+{
+    height: 300px;
+    width: 300px;
+}
+
+.modeldiv
+{
+    display: flex;
+}
+
+.h1skill
+{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .html {width: 70%; background-color: #04AA6D;}
+  .express {width: 50%; background-color: #04AA6D;}
+  .react {width: 60%; background-color: #04AA6D;}
+  .html {width: 80%; background-color: #04AA6D;}
+
+  #mainskill
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 768px) {
+    #mainskill
+  {
+    display: grid;
+    grid-template-columns: 1fr ;
+  }
+
+  .modeldiv {
+    display: flex
+;
+    flex-direction: column;
+}
+  }
